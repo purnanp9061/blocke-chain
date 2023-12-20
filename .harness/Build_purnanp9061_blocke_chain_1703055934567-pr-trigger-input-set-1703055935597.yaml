@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_purnanp9061_blocke_chain_1703055934567-pr-trigger-input-set
+  identifier: Build_purnanp9061_blocke_chain_1703055934567prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_purnanp9061_blocke_chain_1703055934567
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
